@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustracja baru z deserami">
+  <rect width="800" height="600" fill="#F3EEE6"/>
+  <rect x="0" y="380" width="800" height="220" fill="#E8DFD2"/>
+  <rect x="60" y="340" width="680" height="46" rx="10" fill="#0F172A"/>
+  <rect x="80" y="386" width="640" height="190" fill="#2B2722"/>
+  <g fill="#F8FAFC" opacity=".9"><rect x="110" y="410" width="120" height="8" rx="4"/><rect x="260" y="410" width="160" height="8" rx="4"/><rect x="450" y="410" width="90" height="8" rx="4"/></g>
+  <!-- półka -->
+  <rect x="120" y="120" width="560" height="10" rx="5" fill="#C9B9A3"/>
+  <g>
+    <rect x="150" y="70" width="44" height="50" rx="8" fill="#F6D6D1"/>
+    <rect x="210" y="60" width="44" height="60" rx="8" fill="#FFE3CF"/>
+    <rect x="270" y="76" width="44" height="44" rx="8" fill="#DCEFE3"/>
+    <circle cx="560" cy="90" r="28" fill="#FF6600" opacity=".85"/>
+    <rect x="610" y="66" width="40" height="54" rx="8" fill="#DFEAF7"/>
+  </g>
+  <!-- shake'i na ladzie -->
+  <g>
+    <path d="M200 240 L260 240 L252 340 L208 340 Z" fill="#F8B4B0"/>
+    <ellipse cx="230" cy="236" rx="38" ry="18" fill="#FFFDF9"/>
+    <rect x="236" y="180" width="8" height="70" rx="4" fill="#FF6600" transform="rotate(12 240 215)"/>
+    <path d="M370 230 L440 230 L430 340 L380 340 Z" fill="#8C5A3C"/>
+    <ellipse cx="405" cy="226" rx="44" ry="20" fill="#FFFDF9"/>
+    <rect x="410" y="168" width="8" height="70" rx="4" fill="#0F172A" transform="rotate(-10 414 203)"/>
+    <path d="M550 246 L606 246 L599 340 L557 340 Z" fill="#F4E3A1"/>
+    <ellipse cx="578" cy="242" rx="35" ry="16" fill="#FFFDF9"/>
+  </g>
+  <!-- lampy -->
+  <g stroke="#0F172A" stroke-width="3"><line x1="250" y1="0" x2="250" y2="20"/><line x1="550" y1="0" x2="550" y2="20"/></g>
+  <path d="M220 20 h60 l-10 22 h-40 Z" fill="#0F172A"/>
+  <path d="M520 20 h60 l-10 22 h-40 Z" fill="#0F172A"/>
+  <ellipse cx="250" cy="48" rx="14" ry="6" fill="#FFE3CF"/>
+  <ellipse cx="550" cy="48" rx="14" ry="6" fill="#FFE3CF"/>
+</svg>

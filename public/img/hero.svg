@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Ilustracja milkshake’a">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6D6D1"/><stop offset="1" stop-color="#F1C2BA"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity=".55"/><stop offset=".5" stop-color="#ffffff" stop-opacity=".15"/><stop offset="1" stop-color="#ffffff" stop-opacity=".5"/></linearGradient>
+    <linearGradient id="shake" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F8B4B0"/><stop offset="1" stop-color="#E88E8A"/></linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="640" cy="170" r="120" fill="#FFF1E6" opacity=".7"/>
+  <circle cx="130" cy="820" r="90" fill="#FFF1E6" opacity=".55"/>
+  <!-- słomka -->
+  <rect x="455" y="150" width="26" height="420" rx="13" transform="rotate(14 468 360)" fill="#FF6600"/>
+  <rect x="455" y="190" width="26" height="40" transform="rotate(14 468 360)" fill="#fff" opacity=".85"/>
+  <rect x="455" y="270" width="26" height="40" transform="rotate(14 468 360)" fill="#fff" opacity=".85"/>
+  <!-- bita śmietana -->
+  <g fill="#FFFDF9">
+    <ellipse cx="400" cy="400" rx="185" ry="70"/>
+    <ellipse cx="330" cy="355" rx="80" ry="60"/>
+    <ellipse cx="465" cy="350" rx="85" ry="62"/>
+    <ellipse cx="400" cy="300" rx="78" ry="70"/>
+    <ellipse cx="405" cy="245" rx="44" ry="42"/>
+  </g>
+  <circle cx="420" cy="205" r="30" fill="#C0352B"/>
+  <path d="M420 178 q14 -40 40 -46" stroke="#4A7A3A" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <g fill="#FF6600"><rect x="300" y="330" width="16" height="6" rx="3" transform="rotate(-30 308 333)"/><rect x="480" y="300" width="16" height="6" rx="3" transform="rotate(25 488 303)"/><rect x="370" y="270" width="16" height="6" rx="3" transform="rotate(60 378 273)"/><rect x="440" y="380" width="16" height="6" rx="3" transform="rotate(-10 448 383)"/></g>
+  <!-- szklanka -->
+  <path d="M215 430 L585 430 L545 860 Q540 900 500 900 L300 900 Q260 900 255 860 Z" fill="url(#shake)"/>
+  <path d="M215 430 L585 430 L545 860 Q540 900 500 900 L300 900 Q260 900 255 860 Z" fill="url(#glass)"/>
+  <path d="M250 470 L275 860" stroke="#fff" stroke-opacity=".6" stroke-width="12" stroke-linecap="round"/>
+  <rect x="205" y="418" width="390" height="26" rx="13" fill="#FFFDF9"/>
+  <ellipse cx="400" cy="935" rx="230" ry="22" fill="#0F172A" opacity=".08"/>
+</svg>
